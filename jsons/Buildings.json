@@ -137,7 +137,7 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[+2 Gold] from [Silk] tiles [in this city]",
 			"[+2 Gold] from [Cotton] tiles [in this city]",
-			"[+2 Gold] from [Dyes] tiles [in this city]"]],
+			"[+2 Gold] from [Dyes] tiles [in this city]"],
 		"requiredTech": "Industrialization"
 	},
 	 {
