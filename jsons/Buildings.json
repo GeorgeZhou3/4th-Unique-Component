@@ -257,7 +257,7 @@
 		"requiredTech": "Theology"
 	},
 	{
-		"name": "Fish Pond"
+		"name": "Fish Pond",
 		"replaces": "Water Mill",
 		"uniqueTo": "Polynesia",
 		"maintenance": 0,
