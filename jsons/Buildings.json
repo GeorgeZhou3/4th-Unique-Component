@@ -357,7 +357,7 @@
 		"food": 2,
 		"production": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]","[+1 Gold] from [Flood Plains] tiles [in this city]","[+15]% growth [in this city]"],
+		"uniques": ["Must be on [River]","[+1 Gold] from [Flood plains] tiles [in this city]","[+15]% growth [in this city]"],
 		"requiredTech": "The Wheel"
 	},
 {
