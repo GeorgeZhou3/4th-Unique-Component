@@ -467,5 +467,17 @@
 		"percentStatBonus": {"gold": 25,"science": 10},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
+	},
+	{
+		"name": "Longhouse",
+		"replaces": "Workshop",
+		"uniqueTo": "Iroquois",
+		"cost": 100,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Plant Forest] tiles [in this city]"],
+		"requiredTech": "Metal Casting"
 	}
 ]
