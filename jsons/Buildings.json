@@ -157,7 +157,7 @@
     "uniqueTo": "Mongolia",
 		"happiness": 2,
 		"hurryCostModifier": 25,
-    "uniques": ["New [Land] units start with [10 ] Experience [in this city]"],
+    "uniques": ["New [Land] units start with [10] Experience [in this city]"],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -243,7 +243,7 @@
 		"maintenance": 0,
 		"uniques": ["[+2 Culture] from [Cattle] tiles [in this city]",
 			   "[+1 Food] [in this city] <after discovering [Fertilizer]>",
-			   "[+1 Production] [in this city] <if [Stable] is constructed>"],
+			   "[+1 Production] [in this city] <if [Stable] is constructed>","[-1] population [in this city]","Requires at least [2] population"],
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Chivalry"
 	},
@@ -268,7 +268,164 @@
 		"[+1 Gold] [in this city] <after discovering [Compass]>",
 		"[+1 Food] [in this city] <if [Lighthouse] is constructed>",
 		"[+1 Production] [in this city] <if [Harbor] is constructed>",
-		"[+1 Production, +1 Gold] [in this city] <if [Seaport] is constructed>"],
+		"[+1 Production, +1 Gold] [in this city] <if [Seaport] is constructed>","[-1] population [in this city]","Requires at least [2] population"],
 		"requiredTech": "The Wheel"
-	}
+	},
+	{
+		"name": "Orchestra",
+		"replaces": "Opera House",
+		"culture": 7,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Sacrificial Altar",
+		"replaces": "Temple",
+		"uniqueTo": "Aztecs",
+		"maintenance": 2,
+		"faith": 2,
+		"happiness": 1,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Salon",
+		"replaces": "Theatre",
+		"uniqueTo": "France",
+		"happiness": 3,
+		"culture": 2,
+		"science": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Ziggurat",
+		"replaces": "Temple",
+		"uniqueTo": "Babylon",
+		"maintenance": 2,
+		"faith": 2,
+		"production": 1,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]""],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Dojo"
+		"replaces": "Barracks",
+		"uniqueTo": "Japan",
+		"hurryCostModifier": 25,
+		"culture": 2,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [30] Experience [in this city]", "Destroyed when the city is captured"],
+	},
+	{
+		"name": "Ballcourt",
+		"replace": "Colosseum",
+		"uniqueTo": "The Maya",
+		"cost": 80,
+		"maintenance": 1,
+		"faith": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+{
+		"name": "Qurikancha",
+		"replaces": "Temple",
+		"uniqueTo": "Inca",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"faith": 2,
+		"gold": 1,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy"
+	},
+{
+	"name": "Nilometer",
+		"replaces": "Water Mill",
+	"uniqueTo": "Egypt",
+		"maintenance": 0,
+		"food": 2,
+		"production": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]","[+1 Gold] from [Flood Plains] tiles [in this city]","[+15]% growth [in this city]"],
+		"requiredTech": "The Wheel"
+	},
+{
+	"name": "Sala",
+		"replaces": "Garden",
+	"uniqueTo": "Siam",
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredTech": "Construction"
+	},
+{
+	"name": "Changdeokgung",
+		"replaces": "Palace",
+	"uniqueTo": "Korea"
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+	"happiness": 4
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+{
+		"name": "Seowon",
+		"replaces": "University",
+		"uniqueTo": "Korea",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"faith": 2,
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+{
+		"name": "Hamam",
+    "replaces": "Garden",
+    "uniqueTo": "The Ottomans",
+    "happiness": 1,
+    "faith": 2,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredTech": "Theology"
+	},
+{
+	"name": "Hippodrome",
+		"replaces": "Circus",
+	"uniqueTo": "Byzantium",
+		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"happiness": 2,
+	"culture": 2,
+	"faith": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "The Wheel"
+	},
+{
+		"name": "Basilica",
+	"replaces": "Temple",
+	"uniqueTo": "Byzantium",
+		"faith": 4,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
 ]
