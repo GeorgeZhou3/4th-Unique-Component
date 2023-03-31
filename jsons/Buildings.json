@@ -428,4 +428,43 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
+{
+	"name": "Steel Mill",
+		"replaces": "Factory",
+	"uniqueTo": "America",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+	"uniques": ["[+2 Production] from [Coal] tiles [in this city]",
+			"[+2 Production] from [Iron] tiles [in this city]","[+15]% Production when constructing [Water] units [in this city]","[+15]% Production when constructing [Armored] units [in this city]"],
+		"requiredTech": "Industrialization"
+	},
+{
+	"name": "Ranch",
+		"replaces": "Stable",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]",
+			"[+1 Production] from [Deer] tiles [in this city]","[-20]% Culture cost of natural border growth [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+{
+		"name": "Waag",
+		"replaces": "Bank",
+		"uniqueTo": "The Netherlands",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25,"science": 10},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
 ]
