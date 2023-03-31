@@ -1,0 +1,103 @@
+[
+   {
+		"name": "Treasury",
+    "replaces": "Market",
+    "uniqueTo": "Songhai",
+		"gold": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+    "uniques": ["Gain [+2 Gold] in the capital"],
+		"requiredTech": "Currency"
+	},
+  {
+		"name": "Agora",
+		"replaces": "Market",
+		"uniqueTo": "Greece",
+    "gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+  {
+		"name": "Odeon",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Greece",
+    "culture": 3,
+    "science": 2,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry
+	},
+	{
+		"name": "Yurt",
+    "replaces": "Circus",
+    "uniqueTo": "The Huns",
+		"happiness": 2,
+		"hurryCostModifier": 25,
+    "uniques": ["[-20]% Culture cost of natural border growth [in this city]"]
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Thermae",
+    "replaces": "Garden",
+    "uniqueTo": "Rome",
+    "science": 1,
+    "culture": 1,
+    "food": 1,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+  {
+		"name": "Forum",
+		"replaces": "Market",
+		"uniqueTo": "Rome",
+    "gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+    "uniques": ["[+10]% Great Person generation [in this city]"]
+	},
+  {
+		"name": "Round House",
+		"replaces": "Workshop",
+		"uniqueTo": "Celts",
+		"cost": 100,
+		"maintenance": 2,
+		"production": 2,
+    "percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] from [Forest] tiles [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+  {
+		"name": "Research Institute",
+    "replaces": "Research Lab",
+    "uniqueTo": "Russia",
+		"science": 8,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"requiredTech": "Plastics"
+	},
+  {
+		"name": "Dar-e Mehr",
+		"replaces": "Temple",
+		"uniqueTo": "Persia",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"faith": 2,
+    "uniques": ["Gain [+2 Culture] in the capital"],
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy"
+	}
+]
