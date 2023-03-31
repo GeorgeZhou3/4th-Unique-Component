@@ -1,0 +1,28 @@
+[
+  {
+		"name": "Rice Terrace",
+		"uniqueTo": "China",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 3,
+		"turnsToBuild": 7,
+		"uniques": ["[+2 Food] from [Fresh water] tiles","[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Construction",
+		"shortcutKey": "E"
+	},
+   {
+		"name": "Plant Forest",
+		"uniqueTo": "Iroquois",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra"],
+		"production": 1,
+    "food": 1,
+    "overrideStats": true,
+		"turnsToBuild": 7,
+		"uniques": ["Cannot be built on [Bonus resource] tiles","Cannot be built on [Luxury resource] tiles",
+                "[+1 Production] <after discovering [Scientific Theory]>",
+               "[+1 Production] <after discovering [Construction]>",],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	}
+]
