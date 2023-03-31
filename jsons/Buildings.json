@@ -7,7 +7,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-    "uniques": ["Gain [+2 Gold] in the capital"],
+    "uniques": ["[+2 Gold] from every [Palace]"],
 		"requiredTech": "Currency"
 	},
   {
@@ -31,7 +31,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry
+		"requiredTech": "Drama and Poetry"
 	},
 	{
 		"name": "Yurt",
@@ -96,7 +96,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"faith": 2,
-    "uniques": ["Gain [+2 Culture] in the capital"],
+    "uniques": ["[+2 Culture] from every [Palace]"],
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
 	}
