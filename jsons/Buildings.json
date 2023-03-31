@@ -314,17 +314,17 @@
 		"production": 1,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
-		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]""],
+		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Philosophy"
 	},
 	{
-		"name": "Dojo"
+		"name": "Dojo",
 		"replaces": "Barracks",
 		"uniqueTo": "Japan",
 		"hurryCostModifier": 25,
 		"culture": 2,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [30] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [30] Experience [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Ballcourt",
@@ -371,14 +371,14 @@
 {
 	"name": "Changdeokgung",
 		"replaces": "Palace",
-	"uniqueTo": "Korea"
+	"uniqueTo": "Korea",
 		"isNationalWonder": true,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 2,
-	"happiness": 4
+	"happiness": 4,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
@@ -466,5 +466,5 @@
 		"percentStatBonus": {"gold": 25,"science": 10},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
-	},
+	}
 ]
