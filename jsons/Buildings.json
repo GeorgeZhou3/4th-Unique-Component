@@ -262,7 +262,7 @@
 		"uniqueTo": "Polynesia",
 		"maintenance": 0,
 		"food": 4,
-,		"hurryCostModifier": 25,
+		"hurryCostModifier": 25,
 		"uniques": ["Must be next to [Coast]","[+1 Food] from [Fish] tiles [in this city]",
 		"[+1 Food] [in this city] <after discovering [Sailing]>",
 		"[+1 Gold] [in this city] <after discovering [Compass]>",
