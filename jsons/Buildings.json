@@ -39,7 +39,7 @@
     "uniqueTo": "The Huns",
 		"happiness": 2,
 		"hurryCostModifier": 25,
-    "uniques": ["[-20]% Culture cost of natural border growth [in this city]"]
+    "uniques": ["[-20]% Culture cost of natural border growth [in this city]"],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -62,7 +62,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Currency"
+		"requiredTech": "Currency",
     "uniques": ["[+10]% Great Person generation [in this city]"]
 	},
   {
