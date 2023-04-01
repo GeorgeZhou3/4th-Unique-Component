@@ -14,14 +14,13 @@
    {
 		"name": "Plant Forest",
 		"uniqueTo": "Iroquois",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Hill"],
 		"production": 1,
     "food": 1,
-    "overrideStats": true,
 		"turnsToBuild": 7,
 		"uniques": ["Cannot be built on [Bonus resource] tiles","Cannot be built on [Luxury resource] tiles",
                 "[+1 Production] <after discovering [Scientific Theory]>",
-               "[+1 Production] <after discovering [Construction]>",],
+               "[+1 Production] <after discovering [Construction]>","[-2 Food] from [Grassland] tiles","[-1 Food,-1 Production] from [Plains] tiles","[-1 Food] from [Tundra] tiles","[-2 Production] from [Hill] tiles""],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	}
