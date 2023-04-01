@@ -90,6 +90,68 @@
 		"obsoleteTech": "Rifling",
   "promotions": ["[Streltsy] ability"],
 		"attackSound": "shot"
-	}
+	},
+	{
+  "name": "Clibanarii",
+		"replaces": "Horseman",
+  "uniqueTo": "Persia",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+	"promotions":["Shock I"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Numidian",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit","Can move immediately once bought"],
+		"promotions":["Shock I"],
+		"attackSound": "arrow"
+	},
+{
+  "name": "Sepoy",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+  "uniqueTo": "India",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+  "promotions": ["Besiege"],
+		"attackSound": "shot"
+	},
+	{
+	"name": "Oromo",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+  "uniqueTo": "Ethiopia",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["[+50]% XP gained from combat"]
+  "promotions": ["Shock I","Shock II"],
+		"attackSound": "shot"
+	},
 
 ]
