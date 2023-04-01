@@ -274,6 +274,7 @@
 	{
 		"name": "Orchestra",
 		"replaces": "Opera House",
+		"uniqueTo": "Austria",
 		"culture": 7,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
