@@ -11,7 +11,8 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"promotions": ["Medic","Can move after attacking"],
+		"promotions": ["Medic"],
+		"uniques":["[Sofa] ability"],
 		"attackSound": "crossbow"
 	},
   {
@@ -57,7 +58,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot",
-    "uniques": ["Scouting I","Survivalism I"]
+    "promotions": ["Scouting I","Survivalism I"]
 	},
 {
   "name": "Carpentom",
@@ -71,7 +72,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Medic","Medic II"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+	"promotions":["Medic","Medic II"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -86,7 +88,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-  "uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+  "promotions": ["[Streltsy] ability"],
 		"attackSound": "shot"
 	}
 
