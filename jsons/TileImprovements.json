@@ -30,7 +30,7 @@
 		"gold":1,
 		"culture":2,
 		"uniques": ["Must be next to [Luxury resource]","Must not be next to [Chateau]","Gives a defensive bonus of [50]%","[+1 Culture, +2 Gold] <after discovering [Flight]>"],
-		"techRequired": "Construction",
+		"techRequired": "Chivalry",
 		"shortcutKey": "C"
 	}
 ]
