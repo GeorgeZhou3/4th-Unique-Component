@@ -6,5 +6,38 @@
   {
     "name":"[Streltsy] ability",
     "uniques":["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
-  }
+  },
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout","Gunpowder"],
+        "column": 8,
+        "row": 2
+	},
+	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Scout","Gunpowder"],
+        "column": 8,
+        "row": 3
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Scout","Gunpowder"],
+        "column": 9,
+        "row": 2
+	},
+	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"unitTypes": ["Scout","Gunpowder"],
+        "column": 9,
+        "row": 3
+	},
+
  ]
