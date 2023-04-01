@@ -280,7 +280,7 @@
 		"strength": 13,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Steel",
 		"upgradesTo": "Longswordsman",
 		"promotions": ["[Obsidian Warrior] ability"],
 		"attackSound": "metalhit"
