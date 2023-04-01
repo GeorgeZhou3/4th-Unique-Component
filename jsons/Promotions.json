@@ -1,1 +1,10 @@
-
+[
+  {
+    "name":"[Sofa] ability",
+    "uniques":["Can move after attacking"]
+  },
+  {
+    "name":"[Streltsy] ability",
+    "uniques":["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+  }
+ ]
