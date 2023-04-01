@@ -39,5 +39,34 @@
         "column": 9,
         "row": 3
 	},
-
+	{
+    "name":"[Ghazi] ability",
+    "uniques":["[+15]% Strength <when fighting in [Forest] tiles> <when defending>","[+15]% Strength <when fighting in [Hill] tiles> <when defending>","[+15]% Strength <when fighting in [Jungle] tiles> <when defending>"]
+  },
+{
+    "name":"[Landwehr] ability",
+    "uniques":["[+10]% Strength <when fighting in [Hill] tiles>","[+25]% Strength <when defending>"]
+  },
+	{
+    "name":"[Sohei] ability",
+    "uniques":["[+15]% Strength <when adjacent to a [All] unit>"]
+  },
+	{
+    "name":"[Obsidian Warrior] ability",
+    "uniques":["[+50]% Strength <vs [Mounted] units>"]
+  },
+	
+	{
+    "name":"[Khopesh Swordsman] ability",
+    "uniques":["[+50]% Strength <when fighting in [Desert] tiles>"]
+  },
+	{
+    "name":"[East Indiaman] ability",
+    "uniques":["[+5]% Strength <with [20]% chance>","[+10]% Strength <with [20]% chance>","[+15]% Strength <with [20]% chance>","[+20]% Strength <with [20]% chance>","[+25]% Strength <with [20]% chance>"]
+  },
+	{
+    "name":"[War Junk] ability",
+    "uniques":["[+1] Movement","[+15]% Strength <when defending>"]
+  },
+	
  ]
